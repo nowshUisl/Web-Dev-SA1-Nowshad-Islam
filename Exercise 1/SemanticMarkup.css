@@ -1,0 +1,61 @@
+/* =========================
+   1. Base Page Styling
+   ========================= */
+body {
+    font-family: Arial, sans-serif; /*Clean,readable font*/
+    line-height: 1.6;/*Space between lines for readability*/
+    color: #000000;/*Text color set to black*/
+    max-width: 800px;/*Limit content width for better readability*/
+    margin: 20px auto;/*Center the page content horizontally*/
+    border: 1px solid #000000;/*Border around the page content*/
+    padding: 20px;/*Inner padding inside the page*/
+}
+/* =========================
+   2. Headings
+   ========================= */
+/*Remove extra top margin for all headings*/
+h1, h2, h3 {
+    margin-top: 0;
+}
+/* =========================
+   3. Navigation Links
+   ========================= */
+/*Style for links inside the navigation menu*/
+nav a {
+    margin-right: 15px; /*Space between links*/
+    text-decoration: underline;/*Underline links for clarity*/
+    color: rgb(41, 41, 68); /*Dark bluish color for links*/
+}
+/* =========================
+   4. Header, Footer, and Aside
+   ========================= */
+
+header,
+footer,
+aside {
+    background-color: #84a0dd;/*Light blue background for emphasis*/
+    padding: 20px;/*Padding inside the section*/
+    margin-bottom: 20px;/*Space below each section*/
+}
+
+/* Footer specifics */
+footer {
+    margin-top: 40px;/*Extra space above footer*/
+    font-size: 0.9em;/*Slightly smaller text for footer*/
+}
+/* Highlight / Egg Substitute box */
+aside {
+    border-left: 5px solid #000000;/*Black accent line on the left*/
+}
+/* =========================
+   5. Lists
+   ========================= */
+/*Space between list items*/
+li {
+    margin-bottom: 5px;
+}
+/*Space after an entire list*/
+ul,
+ol {
+    margin-bottom: 20px;
+}
