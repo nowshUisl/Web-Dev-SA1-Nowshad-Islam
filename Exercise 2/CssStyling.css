@@ -1,0 +1,61 @@
+/* =========================
+   1. Base Page Styling
+   ========================= */
+/*Styles for the entire page*/
+body {
+    background-color: #4f6380;/*Dark bluish background*/
+    font-family: Arial, sans-serif; /*Clean, readable font*/
+    line-height: 1.6;/*Spacing between line */
+    margin: 0;/*Remove default margin*/
+    padding: 40px 20px;  /*Space around content inside the page*/
+}
+/* =========================
+   2. Layout / Container
+   ========================= */
+/*Wrapper for main conten*/
+.content-wrapper {
+    background-color: rgb(142, 156, 161);/*Light gray-blue background*/
+    max-width: 600px;/*Limit container width*/
+    margin: 0 auto;/*Center container horizontally*/
+    padding: 40px;/*Inner padding inside container*/
+    border-radius: 20px;/*Rounded corners*/
+}
+/* =========================
+   3. Typography
+   ========================= */
+/*Main page title*/
+.main-title {
+    color: #30308f;/*Dark blue text color*/
+    font-size: 5rem; /*Large font size for main heading*/
+    text-align: center;/*Center text horizontally*/
+    margin-top: 0;/*Remove extra top margin*/
+    font-weight: bold; /*Bold text*/
+}
+/*Subtitle or secondary heading*/
+.sub-title {
+    color: #252146;/*Dark purple text color*/
+    font-size: 3rem;/*Smaller than main title*/
+    text-align: center;/*Center text*/
+    font-weight: bold;/*Bold text*/
+}
+/*Section headings*/
+h3 {
+    font-size: 34px;/*Large heading for sections*/
+    font-weight: bold;/* =Bold text =*/
+}
+/* =========================
+   4. Highlight Box
+   ========================= */
+/*Special box for tips, notes, or highlights*/
+.highlight-box {
+    background-color: #f4f6ff;/*Light pastel background*/
+    color: black;/*Text color*/
+    padding: 20px;/*Inner spacing*/
+    border-radius: 15px;/*Rounded corners*/
+    margin: 30px 0;/*Space above and below box*/
+}
+/*Heading inside the highlight box*/
+.highlight-box h3 {
+    margin-top: 0;
+    font-size: 1.5rem;
+}
