@@ -1,0 +1,178 @@
+/* =========================
+   1. Page Base Styling
+   ========================= */
+body {
+    background: white; /* Set the main background color and default font for the whole page */
+    margin: 0; /* Remove default browser margin */
+    font-family: Georgia, serif; /* Use a serif font for a classic look */
+}
+
+/* =========================
+   2. Main Page Container
+   ========================= */
+/* Wrapper that holds all page content and centers it */
+.wrapper {
+    width: 900px; /* Fixed width for the layout */
+    margin: 25px auto; /* Center the container horizontally */
+    background: #f0f0f0; /* Light grey background */
+    padding: 20px 0 0 0; /* Padding only at the top */
+}
+
+/* =========================
+   3. Header Section
+   ========================= */
+/* Header area containing title and navigation */
+header {
+    text-align: center; /* Center the text */
+    margin-bottom: 12px; /* Space below header */
+    padding: 0 25px; /* Side spacing */
+}
+
+/* =========================
+   4. Main Title
+   ========================= */
+/* Style for the main website title */
+h1 {
+    font-size: 65px; /* Large title size */
+    font-weight: 600; /* Semi-bold weight */
+    margin-bottom: 6px; /* Space below title */
+    margin-top: 5px; /* Small space above title */
+}
+
+/* =========================
+   5. Navigation Menu
+   ========================= */
+/* Navigation bar container */
+nav {
+    text-align: center; /* Center navigation links */
+    padding: 10px 25px; /* Inner spacing inside nav */
+    margin-top: 5px; /* Space above navigation bar */
+    margin-bottom: 20px; /* Space below navigation bar */
+}
+
+/* Individual navigation links */
+nav a {
+    color: #0044cc; /* Blue link color */
+    font-size: 18px; /* Medium font size */
+    margin: 0 30px; /* Space between links */
+}
+
+/* =========================
+   6. Introduction Section
+   ========================= */
+/* Section containing the intro image and text */
+.intro-section {
+    margin-bottom: 28px; /* Space below the section */
+    overflow: hidden; /* Clears floated elements */
+    padding: 0 25px; /* Horizontal padding */
+}
+
+/* =========================
+   7. Intro Image
+   ========================= */
+/* Container for the introduction image */
+.intro-image {
+    float: right; /* Position image on the right side of the text */
+    margin-left: 24px; /* Space between image and paragraph text */
+    margin-bottom: 10px; /* Space below the image */
+}
+
+/* Styling for the intro image itself */
+.intro-image img {
+    width: 390px; /* Fixed width for the image */
+    height: auto; /* Maintain image ratio */
+    display: block; /* Removes extra space below images */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.25); /* Add subtle shadow effect */
+}
+
+/* =========================
+   8. Text Content
+   ========================= */
+/* Paragraph styling inside the intro section */
+.text p {
+    font-size: 17px; /* Paragraph font size */
+    margin-bottom: 1px; /* Small spacing between paragraphs */
+    line-height: 1.5; /* Controls spacing between lines of text */
+    color: #111; /* Dark text color for readability */
+}
+
+/* =========================
+   9. Layout Spacing Element
+   ========================= */
+/* Empty container used to manage layout spacing */
+.gallery-grid {
+    margin: 12px 25px 6px 25px; /* Adds spacing around the element */
+    clear: both; /* Prevent layout issues caused by floated elements */
+}
+
+/* =========================
+   10. Gallery Section
+   ========================= */
+/* Main gallery container */
+.gallery {
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Stack rows vertically */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    width: 100%; /* Make gallery take full container width */
+}
+
+/* =========================
+   11. Gallery Rows
+   ========================= */
+/* Each row in the gallery layout */
+.row {
+    display: flex; /* Arrange images and video side by side */
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    line-height: 0; /* Remove gaps under media elements */
+    font-size: 0; /* Prevent inline spacing issues */
+}
+
+/* =========================
+   12. Media Reset
+   ========================= */
+/* Remove default spacing and borders for media elements */
+.row video,
+.row img {
+    background: #e8e8e8; /* Light grey background behind media */
+    display: block; /* Prevent inline spacing gaps */
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default padding */
+    border: none; /* Remove default borders */
+}
+
+/* =========================
+   13. Video Styling
+   ========================= */
+/* Style for the gallery video */
+.videolol {
+    width: 60%; /* Occupies 60% of the row width */
+    height: 30%; /* Sets the height of the video container */
+    background: black; /* Black background if video does not fully fill */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2); /* Soft shadow around the video */
+    object-fit: fill; /* Stretch video to fill container */
+}
+
+/* =========================
+   14. Gallery Images
+   ========================= */
+/* Large image next to the video */
+.image1 {
+    width: 100%; /* Image fills available container width */
+    height: 303px; /* Fixed height for layout consistency */
+    object-fit: fill; /* Stretch image to fill the container */
+}
+
+/* Smaller image layout */
+.image2 {
+    width: 35%; /* Image takes 35% of the row width */
+    height: 255px; /* Fixed height to align images in row */
+}
+
+/* Larger image layout */
+.image3 {
+    width: 65%; /* Image takes 65% of the row width */
+    height: 255px;  /* Same height as image2 for alignment */
+}
