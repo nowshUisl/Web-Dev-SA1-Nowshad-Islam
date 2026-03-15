@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Character encoding for proper text display -->
+<meta charset="UTF-8">
+<!-- Makes the website responsive on mobile devices -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Title displayed in the browser tab -->
+<title>The Wondering Photographer</title>
+<!-- Link to the external CSS file -->
+<link rel="stylesheet" href="WebAccessibility.css">
+</head>
+ <!-- Decorative divider image displayed at the top of the page -->
+    <div class="top-divider">
+        <img src="TheDivider.png" alt="">
+    </div>
+<body>
+<div class="wrapper">
+<!-- Skip link for accessibility: allows keyboard users to skip navigation and go directly to the main content -->
+<a class="skip-link" href="#main">Skip to main content</a>
+<!-- Website header containing title, navigation, and shopping basket -->
+<header>
+    <!-- Website title -->
+    <h1>The Wondering Photographer</h1>
+<!-- Main navigation menu -->
+    <nav aria-label="Main navigation">
+        <ul>
+            <!-- Navigation links -->
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">About Me</a></li>
+        </ul>
+    </nav>
+
+    <!-- Shopping cart button with accessibility label -->
+    <button aria-label="View shopping basket">
+        🛒 View Basket
+    </button>
+</header>
+<!-- Main content area of the webpage -->
+<main id="main">
+<!-- Gallery section containing photos available for purchase -->
+<section class="gallery">
+<!-- First photo article -->
+<article class="photo">
+    <!-- Figure groups the image and its caption -->
+    <figure>
+        <!-- Image of the ocean -->
+        <img src="OceanPhoto.jpg" alt="ocean view">
+        <!-- Caption describing the photo -->
+        <figcaption>
+            This was from a fabulous trip to the cost of Greenland with my family. The water was lovely- but very cold!
+        </figcaption>
+    </figure>
+<!-- Button to add the photo to the shopping basket -->
+    <button>Add to basket</button>
+</article>
+
+<!-- Second photo article -->
+<article class="photo">
+    <figure>
+        <!-- Image of the Golden Gate Bridge -->
+        <img src="BridgePhoto.jpg" alt="Bridge">
+    <!-- Caption describing the photo -->
+        <figcaption>
+            A picture of the Golden Gate Bridge. New York! New York!
+        </figcaption>
+    </figure>
+<!-- Add to basket button -->
+    <button>Add to basket</button>
+</article>
+
+<!-- Third photo article -->
+<article class="photo">
+    <figure>
+        <!-- Image showing a river valley -->
+        <img src="ValleyPhoto.jpg" alt="valley">
+        <figcaption>
+            <!-- Caption describing the photo -->
+            Another great photo from Greenland. It's a river valley where a glacier used to be.
+        </figcaption>
+    </figure>
+<!-- Add to basket button -->
+    <button>Add to basket</button>
+</article>
+
+<!-- Fourth photo article -->
+<article class="photo">
+    <figure>
+        <!-- Image of a waterfall -->
+        <img src="WaterfallPhoto.jpg" alt="waterfall">
+        <!-- Caption describing the photo -->
+        <figcaption>
+            The waterfall made such a lovely sound. I could have fallen asleep!
+        </figcaption>
+    </figure>
+<!-- Add to basket button -->
+    <button>Add to basket</button>
+</article>
+
+</section>
+
+</main>
+<!-- Footer section with copyright information -->
+<footer>
+    <p>Copyright The Wondering Photographer 2018.</p>
+</footer>
+</div>
+</body>
+</html>
